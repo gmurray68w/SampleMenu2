@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp"
+            android:contentDescription="@string/Fragment1" android:src="@drawable/breakfast"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fragment1"
+            style="@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse"
+            android:layout_centerHorizontal="true" android:layout_below="@+id/imageView"/>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="157dp">
+
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/alacarte1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alacarte"
+                android:text="@string/alacarte"
+                android:layout_marginBottom="10dip"
+                android:clickable="true"
+                android:onClick="BreakfastMenu.java"/>
+            <Button
+                    android:id="@+id/farmFreshEggs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/breakfast"
+                    android:text="@string/ffeb"
+                    android:layout_marginBottom="10dip"/>
+            <Button
+                    android:id="@+id/sausageClassics"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sausage"
+                    android:text="@string/sausageTitle"
+                    android:layout_marginBottom="10dip"/>
+            <Button
+                    android:id="@+id/hotGriddle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/hotgriddle"
+                    android:text="@string/hotgridz"
+                    android:layout_marginBottom="10dip"/>
+            <Button
+                    android:id="@+id/eggOmelets"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/eggomelets"
+                    android:text="@string/eggOmeletsTitle"
+                    android:layout_marginBottom="10dip"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

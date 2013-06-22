@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BobEvansMenu.iml" filepath="$PROJECT_DIR$/BobEvansMenu.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/actionbarsherlock/actionbarsherlock.iml" filepath="$USER_HOME$/Desktop/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/build/source/buildConfig/buildConfig.iml" filepath="$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/build/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/actionbarsherlock/target/generated-sources/generated-sources.iml" filepath="$USER_HOME$/Desktop/actionbarsherlock/target/generated-sources/generated-sources.iml" />
+      <module fileurl="file://$USER_HOME$/AppData/Local/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" filepath="$USER_HOME$/AppData/Local/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/google-play-services_lib.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/src/main/main.iml" filepath="$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/src/main/main.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/build/source/r/r.iml" filepath="$USER_HOME$/Desktop/actionbarsherlock/ActiontestProject/ActionBarSherlock/build/source/r/r.iml" />
+    </modules>
+  </component>
+</project>
+

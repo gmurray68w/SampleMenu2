@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:gravity="right" style="@style/Sherlock.__Widget.ActionBar">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" style="@style/Sherlock.__Widget.ActionBar">
+
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/login"
+            android:id="@+id/loginbutton"
+            android:layout_marginRight="10dp" android:src="@android:drawable/ic_input_get"
+            android:layout_marginLeft="10dp" android:background="@android:color/background_dark"
+            android:layout_marginTop="5dp" android:layout_marginBottom="5dp"/>
+    <ImageButton
+            android:layout_width="32dp"
+            android:layout_height="fill_parent"
+            android:text="@string/cartAdd"
+            android:id="@+id/addCartButton" android:src="@android:drawable/ic_dialog_dialer"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp" android:layout_marginTop="5dp"
+            android:background="@android:color/background_dark"/>
+
+    <ImageButton
+            android:id="@+id/locationButton"
+            android:layout_width="42dp"
+            android:layout_height="fill_parent"
+            android:text="@string/locations" android:src="@android:drawable/ic_dialog_map"
+            android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+            android:background="@android:color/background_dark" android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
